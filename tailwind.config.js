@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        designColor: "#ff014f",
         bgBodyColor: "#021b2b",
         bgDesingColor: "#02031a",
+        hoversColors: "#000041",
       },
 
       container: {
@@ -15,6 +15,11 @@ export default {
           default: "1rem",
           sm: "3rem",
         },
+      },
+
+      fontFamily: {
+        titleFont: ["Orbitron", "sans serif"],
+        bodyFont: ["Montserrat", "sans serif"],
       },
     },
   },

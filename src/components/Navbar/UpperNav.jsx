@@ -3,13 +3,13 @@ import { logoNav } from "../..";
 import { BsCart3 } from "react-icons/bs";
 import { IoIosSearch } from "react-icons/io";
 
-const UpperBaner = () => {
+const UpperNav = () => {
   return (
-    <section className="py-2 bg-bgBodyColor/80">
+    <section className="py-2 bg-bgBodyColor">
             <div className="container flex justify-between items-center">
               <div className="flex items-center font-bold text-2xl sm:text-3xl">
                 <img className="w-16" src={logoNav} alt="Logo Navbar" />
-                <h3>combat airdoft</h3>
+                <h3 className='font-titleFont capitalize'>combat airdoft</h3>
               </div>
               {/* ============ BUSCADOR ========== */}
               <div className="flex gap-4 items-center">
@@ -46,4 +46,4 @@ const UpperBaner = () => {
   )
 }
 
-export default UpperBaner
+export default UpperNav
