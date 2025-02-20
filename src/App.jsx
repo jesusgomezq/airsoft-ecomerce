@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <section className="">
+    <section className="bg-black h-72">
       <Navbar />
     </section>
   );
