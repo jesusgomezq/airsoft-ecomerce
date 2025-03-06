@@ -1,11 +1,13 @@
 import React from "react";
 import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
+import HeroSection from "./components/HeroSection/HeroSection";
 
 const App = () => {
   return (
-    <section className="bg-black h-72">
+    <section>
       <Navbar />
+      <HeroSection/>
     </section>
   );
 };

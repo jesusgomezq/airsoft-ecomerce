@@ -10,7 +10,7 @@ const LowNav = () => {
   return (
     // |===============> MENU <===============|
 
-    <div className="mx-auto py-4 bg-bgDesingColor">
+    <div className="mx-auto py-5 bg-bgDesingColor">
       <ul className="flex justify-center items-center font-semibold">
 
           {/* |==========> MARCADORAS <==============| */}

@@ -1,3 +1,9 @@
+import heroImg1 from "../assets/images/heroImages/heroImages1.jpg";
+import heroImg2 from "../assets/images/heroImages/heroImages2.jpg";
+import heroImg3 from "../assets/images/heroImages/heroImages3.jpg";
+import heroImg4 from "../assets/images/heroImages/heroImages4.jpg";
+import heroImg5 from "../assets/images/heroImages/heroImages5.jpg";
+
 export const navLinkData = [
   {
     id: 1,
@@ -64,11 +70,6 @@ export const marcadorasData = [
   },
   {
     id: 8,
-    title: "rifles con retroceso",
-    link: "rifles con restroceso",
-  },
-  {
-    id: 9,
     title: "escopetas",
     link: "escopetas",
   },
@@ -226,5 +227,63 @@ export const marcasData = [
     id: 11,
     title: "sig sauer",
     link: "sig sauer",
+  },
+  {
+    id: 12,
+    title: "emg",
+    link: "emg",
+  },
+  {
+    id: 13,
+    title: "tokyo marui",
+    link: "marui",
+  },
+  {
+    id: 14,
+    title: "cybergun",
+    link: "cybergun",
+  },
+  {
+    id: 15,
+    title: "matrix",
+    link: "matrix",
+  },
+  {
+    id: 16,
+    title: "6mm",
+    link: "6mm",
+  },
+  {
+    id: 17,
+    title: "glock",
+    link: "glock",
+  },
+  {
+    id: 18,
+    title: "ares",
+    link: "ares",
+  },
+];
+
+export const heroImages = [
+  {
+    id: 1,
+    image: heroImg1,
+  },
+  {
+    id: 2,
+    image: heroImg2,
+  },
+  {
+    id: 3,
+    image: heroImg3,
+  },
+  {
+    id: 4,
+    image: heroImg4,
+  },
+  {
+    id: 5,
+    image: heroImg5,
   },
 ];

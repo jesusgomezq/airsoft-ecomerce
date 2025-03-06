@@ -19,7 +19,6 @@ export default {
 
       fontFamily: {
         titleFont: ["Orbitron", "sans serif"],
-        bodyFont: ["Montserrat", "sans serif"],
       },
     },
   },

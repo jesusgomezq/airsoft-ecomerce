@@ -1,15 +1,15 @@
 import React from "react";
-import { logoNav } from "../..";
+import { logoNav } from "../../assets";
 import { BsCart3 } from "react-icons/bs";
 import { IoIosSearch } from "react-icons/io";
 
 const UpperNav = () => {
   return (
-    <section className="py-2 bg-bgBodyColor">
+    <section className="py-2 bg-bgBodyColor px-3">
       <div className="container flex justify-between items-center">
         <div className="flex items-center font-bold text-2xl sm:text-3xl">
-          <img className="w-16" src={logoNav} alt="Logo Navbar" />
-          <h3 className="font-titleFont capitalize">combat airdoft</h3>
+          <img className="w-20" src={logoNav} alt="Logo Navbar" />
+          <h3 className="font-titleFont capitalize">combat airsoft</h3>
         </div>
 
         {/* |============> BUSCADOR <==========| */}
